@@ -45,6 +45,7 @@ hr {
 
 .player {
     display: flex;
+    align-items: center;
 }
 
 .player img {
@@ -113,9 +114,10 @@ Latest courses
 ----------- */
 .course {
     width: 252.42px;
+    height: 269.79px;    ;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 24px;
+    grid-column-gap: 50px;
 }
 
 .courses .course-banner img {
@@ -124,8 +126,9 @@ Latest courses
 }
 
 .course-title {
+    color: #1E1E1E;
     font-weight: 500;
-    font-size: 20.0336px;
+    font-size: 18px;
 }
 
 .course-author {
@@ -158,3 +161,23 @@ Latest courses
     height: 20.03px;
     border-radius: 14.6913px;
 } */
+
+/* -------------
+    Media quires 
+    -----------*/
+/* ---------------
+    Mobile Devices
+    -------------*/
+@media screen and (max-width: 680px) {
+    .container {
+        width: 100%;
+    }
+
+    .players, .blogs, .course {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .player, .blog {
+        flex-direction: column;
+    }
+}
