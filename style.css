@@ -117,7 +117,7 @@ Latest courses
     height: 269.79px;    ;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 50px;
+    grid-column-gap: 80px;
 }
 
 .courses .course-banner img {
