@@ -114,7 +114,8 @@ Latest courses
 ----------- */
 .course {
     width: 252.42px;
-    height: 269.79px;    ;
+    height: 269.79px;
+    ;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 80px;
@@ -173,11 +174,18 @@ Latest courses
         width: 100%;
     }
 
-    .players, .blogs, .course {
+    .players,
+    .blogs,
+    .course {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .player, .blog {
+    .player,
+    .blog {
         flex-direction: column;
+    }
+
+    .course-info {
+        margin-bottom: 15px;
     }
 }
