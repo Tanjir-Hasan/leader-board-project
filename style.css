@@ -138,6 +138,13 @@ Latest courses
     font-size: 14.6913px;
 }
 
+.course-time {
+    background-color: #FFE4E8;
+    color: #FF4A60;
+    padding: 4px 8px;
+    border-radius: 16px;
+}
+
 .course-info {
     display: flex;
     justify-content: space-between;
